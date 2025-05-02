@@ -201,6 +201,8 @@ func NewService(opts ...Option) (Graph, error) { //nolint:maintidx
 		natskv:                   options.NatsKeyValue,
 	}
 
+	gw := NewGroupware(&options.Logger, options.Config)
+
 	if err := setIdentityBackends(options, &svc); err != nil {
 		return svc, err
 	}
@@ -317,6 +319,7 @@ func NewService(opts ...Option) (Graph, error) { //nolint:maintidx
 					r.Patch("/", usersUserProfilePhotoApi.UpsertProfilePhoto(GetUserIDFromCTX))
 					r.Delete("/", usersUserProfilePhotoApi.DeleteProfilePhoto(GetUserIDFromCTX))
 				})
+				r.Get("/messages", gw.GetMessages)
 			})
 			r.Route("/users", func(r chi.Router) {
 				r.Get("/", svc.GetUsers)
