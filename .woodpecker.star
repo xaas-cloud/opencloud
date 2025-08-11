@@ -2882,11 +2882,11 @@ def ldapService():
                 "ls -la /tmp/ldif-files/",
                 "/tmp/custom-scripts/docker-entrypoint-override.sh /opt/bitnami/scripts/openldap/run.sh",
             ],
-            "backend_options": {
-                "docker": {
-                    "user": "0:0",
-                },
-            },
+            #"backend_options": {
+            #    "docker": {
+            #        "user": "0:0",
+            #    },
+            #},
         },
     ]
 
