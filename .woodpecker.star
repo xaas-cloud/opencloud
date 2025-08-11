@@ -306,6 +306,7 @@ config = {
                 "apiTenancy",
             ],
             "skip": False,
+            "withRemotePhp": [True],
             "ldapNeeded": True,
             "extraTestEnvironment": {
                 "USE_PREPARED_LDAP_USERS": True,
