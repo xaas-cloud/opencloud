@@ -973,7 +973,6 @@ def localApiTestPipeline(ctx):
                                      (waitForServices("online-offices", ["collabora:9980", "onlyoffice:443", "fakeoffice:8080"]) if params["collaborationServiceNeeded"] else []) +
                                      (waitForClamavService() if params["antivirusNeeded"] else []) +
                                      (waitForEmailService() if params["emailNeeded"] else []) +
-                                     (ldapService() if params["ldapNeeded"] else []) +
                                      (waitForLdapService() if params["ldapNeeded"] else []) +
                                      opencloudServer(storage, params["accounts_hash_difficulty"], extra_server_environment = params["extraServerEnvironment"], with_wrapper = True, tika_enabled = params["tikaNeeded"]) +
                                      (opencloudServer(storage, params["accounts_hash_difficulty"], deploy_type = "federation", extra_server_environment = params["extraServerEnvironment"]) if params["federationServer"] else []) +
@@ -982,6 +981,7 @@ def localApiTestPipeline(ctx):
                                      localApiTests(name, params["suites"], storage, params["extraTestEnvironment"], run_with_remote_php) +
                                      logRequests(),
                             "services": (emailService() if params["emailNeeded"] else []) +
+                                        (ldapService() if params["ldapNeeded"] else []) +
                                         (clamavService() if params["antivirusNeeded"] else []) +
                                         ((fakeOffice() + collaboraService() + onlyofficeService()) if params["collaborationServiceNeeded"] else []),
                             "depends_on": getPipelineNames(buildOpencloudBinaryForTesting(ctx)),
