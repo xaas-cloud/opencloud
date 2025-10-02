@@ -1,0 +1,36 @@
+
+# 2025-05-27 11:12:13.960332
++y
+
+# 2025-05-27 11:12:24.831418
++N
+
+# 2025-08-08 20:09:01.215861
++n
+
+# 2025-08-08 20:10:02.002139
++/ask what is this codebase about
+
+# 2025-08-08 20:12:31.750333
++those are the dependencies in the vendor folder. what about the actual code
+
+# 2025-08-08 20:13:56.242508
++/context 
+
+# 2025-08-08 20:14:25.920747
++/settings
+
+# 2025-08-08 20:14:54.465266
++/ask
+
+# 2025-08-08 20:15:18.929199
++how is this go repository structured`?
+
+# 2025-08-08 20:17:00.238863
++/ask what is this codebase about
+
+# 2025-08-13 12:19:06.365022
++/ask 
+
+# 2025-08-13 12:19:50.163955
++how do I configure the forward timeout for trafik for an ingress in k3s

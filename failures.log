@@ -1,0 +1,646 @@
+./suite-logs/apiActivities.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiActivities.log-[31mapiActivities/activities.feature:292
+./suite-logs/apiActivities.log-apiActivities/activities.feature:2370
+./suite-logs/apiActivities.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiActivities.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiGraph.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiGraph.log-[31mapiGraph/enforcePasswordPublicLink.feature:276
+./suite-logs/apiGraph.log-apiGraph/enforcePasswordPublicLink.feature:277
+./suite-logs/apiGraph.log-apiGraph/enforcePasswordPublicLink.feature:278
+./suite-logs/apiGraph.log-apiGraph/enforcePasswordPublicLink.feature:295
+./suite-logs/apiGraph.log-apiGraph/enforcePasswordPublicLink.feature:296
+./suite-logs/apiGraph.log-apiGraph/enforcePasswordPublicLink.feature:297
+./suite-logs/apiGraph.log-apiGraph/userGDPRExport.feature:11
+./suite-logs/apiGraph.log-apiGraph/userGDPRExport.feature:75
+./suite-logs/apiGraph.log-apiGraph/userGDPRExport.feature:183
+./suite-logs/apiGraph.log-apiGraph/userGDPRExport.feature:308
+./suite-logs/apiGraph.log-apiGraph/userGDPRExport.feature:413
+./suite-logs/apiGraph.log-apiGraph/userGDPRExport.feature:523
+./suite-logs/apiGraph.log-apiGraph/userGDPRExport.feature:587
+./suite-logs/apiGraph.log-apiGraph/userGDPRExport.feature:716
+./suite-logs/apiGraph.log-apiGraph/userGDPRExport.feature:819
+./suite-logs/apiGraph.log-apiGraph/userGDPRExport.feature:862
+./suite-logs/apiGraph.log-apiGraph/userGDPRExport.feature:946
+./suite-logs/apiGraph.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiGraph.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiNotification.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiNotification.log-[31mapiNotification/emailNotification.feature:237
+./suite-logs/apiNotification.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiNotification.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiSearch2.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiSearch2.log-[31mapiSearch2/tagSearch.feature:206
+./suite-logs/apiSearch2.log-apiSearch2/tagSearch.feature:207
+./suite-logs/apiSearch2.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiSearch2.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiSearchContent.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiSearchContent.log-[31mapiSearchContent/contentSearch.feature:146
+./suite-logs/apiSearchContent.log-apiSearchContent/contentSearch.feature:147
+./suite-logs/apiSearchContent.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiSearchContent.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiServiceAvailability.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiServiceAvailability.log-[31mapiServiceAvailability/serviceAvailabilityCheck.feature:4
+./suite-logs/apiServiceAvailability.log-apiServiceAvailability/serviceAvailabilityCheck.feature:44
+./suite-logs/apiServiceAvailability.log-apiServiceAvailability/serviceAvailabilityCheck.feature:61
+./suite-logs/apiServiceAvailability.log-apiServiceAvailability/serviceAvailabilityCheck.feature:98
+./suite-logs/apiServiceAvailability.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiServiceAvailability.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiSharingNg1.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiSharingNg1.log-[31mapiSharingNg1/enableDisablePermissionsRole.feature:149
+./suite-logs/apiSharingNg1.log-apiSharingNg1/enableDisablePermissionsRole.feature:150
+./suite-logs/apiSharingNg1.log-apiSharingNg1/enableDisableShareSync.feature:128
+./suite-logs/apiSharingNg1.log-apiSharingNg1/enableDisableShareSync.feature:129
+./suite-logs/apiSharingNg1.log-apiSharingNg1/enableDisableShareSync.feature:152
+./suite-logs/apiSharingNg1.log-apiSharingNg1/enableDisableShareSync.feature:153
+./suite-logs/apiSharingNg1.log-apiSharingNg1/propfindShares.feature:52
+./suite-logs/apiSharingNg1.log-apiSharingNg1/propfindShares.feature:53
+./suite-logs/apiSharingNg1.log-apiSharingNg1/propfindShares.feature:54
+./suite-logs/apiSharingNg1.log-apiSharingNg1/propfindShares.feature:55
+./suite-logs/apiSharingNg1.log-apiSharingNg1/propfindShares.feature:58
+./suite-logs/apiSharingNg1.log-apiSharingNg1/sharedWithMe.feature:1857
+./suite-logs/apiSharingNg1.log-apiSharingNg1/sharedWithMe.feature:2139
+./suite-logs/apiSharingNg1.log-apiSharingNg1/sharedWithMe.feature:2420
+./suite-logs/apiSharingNg1.log-apiSharingNg1/sharedWithMe.feature:5320
+./suite-logs/apiSharingNg1.log-apiSharingNg1/sharedWithMe.feature:5321
+./suite-logs/apiSharingNg1.log-apiSharingNg1/sharedWithMe.feature:5322
+./suite-logs/apiSharingNg1.log-apiSharingNg1/sharedWithMeSyncDisabled.feature:2225
+./suite-logs/apiSharingNg1.log-apiSharingNg1/sharedWithMeSyncDisabled.feature:2522
+./suite-logs/apiSharingNg1.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiSharingNg1.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiSharingNgLinkSharePermission.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiSharingNgLinkSharePermission.log-[31mapiSharingNgLinkSharePermission/createLinkShare.feature:542
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:543
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:544
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:608
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:609
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:610
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:611
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:614
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:673
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:753
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:754
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:755
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:756
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:800
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:801
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:802
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:803
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:804
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:805
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:806
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:807
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:808
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:809
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:810
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:811
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:877
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:878
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1200
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1201
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1202
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1203
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1204
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1205
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1208
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1282
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1653
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1654
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1655
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1656
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1657
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1658
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1659
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1660
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1661
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1662
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1663
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1664
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1728
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1729
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1730
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1731
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1793
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1794
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1795
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1796
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1799
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1916
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1917
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:1920
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2040
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2041
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2042
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2043
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2046
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2168
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2169
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2172
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2293
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2294
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2295
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2296
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2299
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2421
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2422
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2423
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2490
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2491
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2492
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2561
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2562
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2563
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2632
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2633
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2634
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2683
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2684
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2685
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2734
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2735
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2736
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/createLinkShare.feature:2739
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/updateLinkShare.feature:72
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/updateLinkShare.feature:277
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/updateLinkShare.feature:278
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/updateLinkShare.feature:279
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/updateLinkShare.feature:282
+./suite-logs/apiSharingNgLinkSharePermission.log-apiSharingNgLinkSharePermission/updateLinkShare.feature:388
+./suite-logs/apiSharingNgLinkSharePermission.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiSharingNgLinkSharePermission.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiSharingNgLinkShareRoot.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiSharingNgLinkShareRoot.log-[31mapiSharingNgLinkShareRoot/createLinkShare.feature:390
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:391
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:392
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:393
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:394
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:395
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:396
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:397
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:398
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:399
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:400
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:401
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:465
+./suite-logs/apiSharingNgLinkShareRoot.log-apiSharingNgLinkShareRoot/createLinkShare.feature:466
+./suite-logs/apiSharingNgLinkShareRoot.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiSharingNgLinkShareRoot.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiSharingNgShareInvitation.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiSharingNgShareInvitation.log-[31mapiSharingNgShareInvitation/shareInvitations.feature:93
+./suite-logs/apiSharingNgShareInvitation.log-apiSharingNgShareInvitation/shareInvitations.feature:94
+./suite-logs/apiSharingNgShareInvitation.log-apiSharingNgShareInvitation/shareInvitations.feature:95
+./suite-logs/apiSharingNgShareInvitation.log-apiSharingNgShareInvitation/shareInvitations.feature:96
+./suite-logs/apiSharingNgShareInvitation.log-apiSharingNgShareInvitation/shareInvitations.feature:97
+./suite-logs/apiSharingNgShareInvitation.log-apiSharingNgShareInvitation/shareInvitations.feature:184
+./suite-logs/apiSharingNgShareInvitation.log-apiSharingNgShareInvitation/shareInvitations.feature:185
+./suite-logs/apiSharingNgShareInvitation.log-apiSharingNgShareInvitation/shareInvitations.feature:186
+./suite-logs/apiSharingNgShareInvitation.log-apiSharingNgShareInvitation/shareInvitations.feature:187
+./suite-logs/apiSharingNgShareInvitation.log-apiSharingNgShareInvitation/shareInvitations.feature:188
+./suite-logs/apiSharingNgShareInvitation.log-apiSharingNgShareInvitation/shareInvitations.feature:3111
+./suite-logs/apiSharingNgShareInvitation.log-apiSharingNgShareInvitation/shareInvitations.feature:3136
+./suite-logs/apiSharingNgShareInvitation.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiSharingNgShareInvitation.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiSpacesDavOperation.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiSpacesDavOperation.log-[31mapiSpacesDavOperation/moveByFileId.feature:663
+./suite-logs/apiSpacesDavOperation.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiSpacesDavOperation.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiSpaces.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiSpaces.log-[31mapiSpaces/listSpaces.feature:11
+./suite-logs/apiSpaces.log-apiSpaces/listSpaces.feature:77
+./suite-logs/apiSpaces.log-apiSpaces/quota.feature:124
+./suite-logs/apiSpaces.log-apiSpaces/quota.feature:131
+./suite-logs/apiSpaces.log-apiSpaces/tag.feature:243
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:51
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:52
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:53
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:54
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:71
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:72
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:73
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:74
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:91
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:92
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:102
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:103
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:119
+./suite-logs/apiSpaces.log-apiSpaces/trashBin.feature:120
+./suite-logs/apiSpaces.log-apiSpaces/tusUpload.feature:35
+./suite-logs/apiSpaces.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiSpaces.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/apiSpacesShares.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/apiSpacesShares.log-[31mapiSpacesShares/copySpaces.feature:700
+./suite-logs/apiSpacesShares.log-apiSpacesShares/copySpaces.feature:721
+./suite-logs/apiSpacesShares.log-apiSpacesShares/moveSpaces.feature:353
+./suite-logs/apiSpacesShares.log-apiSpacesShares/moveSpaces.feature:354
+./suite-logs/apiSpacesShares.log-apiSpacesShares/moveSpaces.feature:355
+./suite-logs/apiSpacesShares.log-[32mrunsh: There were no unexpected success.
+./suite-logs/apiSpacesShares.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiShareCreateSpecialToShares2.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiShareCreateSpecialToShares2.log-[31mcoreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:141
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:142
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:174
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:175
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:203
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:204
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:207
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:237
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:268
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:300
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:332
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:363
+./suite-logs/coreApiShareCreateSpecialToShares2.log-coreApiShareCreateSpecialToShares2/createShareReceivedInMultipleWays.feature:394
+./suite-logs/coreApiShareCreateSpecialToShares2.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiShareCreateSpecialToShares2.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiShareManagementBasicToShares.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiShareManagementBasicToShares.log-[31mcoreApiShareManagementBasicToShares/deleteShareFromShares.feature:132
+./suite-logs/coreApiShareManagementBasicToShares.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiShareManagementBasicToShares.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiShareManagementToShares.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiShareManagementToShares.log-[31mcoreApiShareManagementToShares/acceptShares.feature:28
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/acceptShares.feature:348
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/acceptShares.feature:406
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/acceptShares.feature:447
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/acceptShares.feature:497
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/acceptShares.feature:586
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/acceptShares.feature:652
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/moveReceivedShare.feature:197
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/moveReceivedShare.feature:222
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/moveReceivedShare.feature:223
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/moveReceivedShare.feature:224
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/moveReceivedShare.feature:470
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/moveReceivedShare.feature:471
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/moveReceivedShare.feature:504
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/moveReceivedShare.feature:505
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/moveShareInsideAnotherShare.feature:60
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/moveShareInsideAnotherShare.feature:61
+./suite-logs/coreApiShareManagementToShares.log-coreApiShareManagementToShares/moveShareInsideAnotherShare.feature:62
+./suite-logs/coreApiShareManagementToShares.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiShareManagementToShares.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiSharePublicLink1.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiSharePublicLink1.log-[31mcoreApiSharePublicLink1/changingPublicLinkShare.feature:33
+./suite-logs/coreApiSharePublicLink1.log-coreApiSharePublicLink1/changingPublicLinkShare.feature:95
+./suite-logs/coreApiSharePublicLink1.log-coreApiSharePublicLink1/changingPublicLinkShare.feature:220
+./suite-logs/coreApiSharePublicLink1.log-coreApiSharePublicLink1/changingPublicLinkShare.feature:241
+./suite-logs/coreApiSharePublicLink1.log-coreApiSharePublicLink1/changingPublicLinkShare.feature:242
+./suite-logs/coreApiSharePublicLink1.log-coreApiSharePublicLink1/changingPublicLinkShare.feature:243
+./suite-logs/coreApiSharePublicLink1.log-coreApiSharePublicLink1/changingPublicLinkShare.feature:244
+./suite-logs/coreApiSharePublicLink1.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiSharePublicLink1.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiShareUpdateToShares.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiShareUpdateToShares.log-[31mcoreApiShareUpdateToShares/updateShare.feature:157
+./suite-logs/coreApiShareUpdateToShares.log-coreApiShareUpdateToShares/updateShare.feature:158
+./suite-logs/coreApiShareUpdateToShares.log-coreApiShareUpdateToShares/updateShare.feature:159
+./suite-logs/coreApiShareUpdateToShares.log-coreApiShareUpdateToShares/updateShare.feature:237
+./suite-logs/coreApiShareUpdateToShares.log-coreApiShareUpdateToShares/updateShare.feature:238
+./suite-logs/coreApiShareUpdateToShares.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiShareUpdateToShares.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiTrashbin.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiTrashbin.log-[31mcoreApiTrashbin/trashbinFilesFolders.feature:159
+./suite-logs/coreApiTrashbin.log-coreApiTrashbin/trashbinFilesFolders.feature:179
+./suite-logs/coreApiTrashbin.log-coreApiTrashbin/trashbinFilesFolders.feature:204
+./suite-logs/coreApiTrashbin.log-coreApiTrashbin/trashbinFilesFolders.feature:216
+./suite-logs/coreApiTrashbin.log-coreApiTrashbin/trashbinSharingToShares.feature:112
+./suite-logs/coreApiTrashbin.log-coreApiTrashbin/trashbinSharingToShares.feature:113
+./suite-logs/coreApiTrashbin.log-coreApiTrashbin/trashbinSharingToShares.feature:114
+./suite-logs/coreApiTrashbin.log-coreApiTrashbin/trashbinSharingToShares.feature:172
+./suite-logs/coreApiTrashbin.log-coreApiTrashbin/trashbinSharingToShares.feature:173
+./suite-logs/coreApiTrashbin.log-coreApiTrashbin/trashbinSharingToShares.feature:174
+./suite-logs/coreApiTrashbin.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiTrashbin.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiTrashbinRestore.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiTrashbinRestore.log-[31mcoreApiTrashbinRestore/trashbinRestore.feature:34
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:35
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:50
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:51
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:68
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:69
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:88
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:89
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:90
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:91
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:92
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:93
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:108
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:109
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:110
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:111
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:130
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:131
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:190
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:191
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:192
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:193
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:194
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:195
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:212
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:213
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:230
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:231
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:250
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:251
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:270
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:271
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:304
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:305
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:343
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:344
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:387
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:388
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:405
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:406
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:448
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:449
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:536
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:537
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:552
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:553
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:568
+./suite-logs/coreApiTrashbinRestore.log-coreApiTrashbinRestore/trashbinRestore.feature:569
+./suite-logs/coreApiTrashbinRestore.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiTrashbinRestore.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiVersions.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiVersions.log-[31mcoreApiVersions/disableFileVersioning.feature:15
+./suite-logs/coreApiVersions.log-coreApiVersions/disableFileVersioning.feature:24
+./suite-logs/coreApiVersions.log-coreApiVersions/disableFileVersioning.feature:74
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:257
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:296
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:297
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:298
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:301
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:463
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:464
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:465
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:466
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:467
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:468
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:469
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:470
+./suite-logs/coreApiVersions.log-coreApiVersions/fileVersions.feature:471
+./suite-logs/coreApiVersions.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiVersions.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiWebdavEtagPropagation2.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiWebdavEtagPropagation2.log-[31mcoreApiWebdavEtagPropagation2/restoreFromTrash.feature:28
+./suite-logs/coreApiWebdavEtagPropagation2.log-coreApiWebdavEtagPropagation2/restoreFromTrash.feature:29
+./suite-logs/coreApiWebdavEtagPropagation2.log-coreApiWebdavEtagPropagation2/restoreFromTrash.feature:51
+./suite-logs/coreApiWebdavEtagPropagation2.log-coreApiWebdavEtagPropagation2/restoreFromTrash.feature:52
+./suite-logs/coreApiWebdavEtagPropagation2.log-coreApiWebdavEtagPropagation2/restoreFromTrash.feature:72
+./suite-logs/coreApiWebdavEtagPropagation2.log-coreApiWebdavEtagPropagation2/restoreFromTrash.feature:73
+./suite-logs/coreApiWebdavEtagPropagation2.log-coreApiWebdavEtagPropagation2/restoreFromTrash.feature:95
+./suite-logs/coreApiWebdavEtagPropagation2.log-coreApiWebdavEtagPropagation2/restoreFromTrash.feature:96
+./suite-logs/coreApiWebdavEtagPropagation2.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiWebdavEtagPropagation2.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiWebdavMove1.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiWebdavMove1.log-[31mcoreApiWebdavMove1/moveFolder.feature:20
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:21
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:22
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:79
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:80
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:81
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:107
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:108
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:109
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:110
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:111
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:112
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:113
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:114
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:115
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:116
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:117
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:118
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:119
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:120
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:121
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:150
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:151
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:152
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:153
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:154
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:155
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:156
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:157
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:158
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:159
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:160
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:161
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:162
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:163
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:164
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:165
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:166
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:167
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:168
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:169
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:170
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:171
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:172
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:173
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:174
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:175
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:176
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:177
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:178
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:179
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:180
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:181
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:182
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:183
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:184
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:185
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:186
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:187
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:188
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:189
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:190
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:191
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:204
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:205
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:206
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:235
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:236
+./suite-logs/coreApiWebdavMove1.log-coreApiWebdavMove1/moveFolder.feature:237
+./suite-logs/coreApiWebdavMove1.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiWebdavMove1.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiWebdavMove2.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiWebdavMove2.log-[31mcoreApiWebdavMove2/moveFile.feature:41
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:42
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:43
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:55
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:56
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:57
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:117
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:118
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:119
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:158
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:159
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:160
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:174
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:175
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:176
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:403
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:404
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:405
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:417
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:418
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:419
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:431
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:432
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:433
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:434
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:435
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:436
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:437
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:438
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:439
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:440
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:441
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:442
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:443
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:444
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:445
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:446
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:447
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:448
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:449
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:450
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:451
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:452
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:453
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:454
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:455
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:456
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:457
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:458
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:459
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:460
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:473
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:474
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveFile.feature:475
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:31
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:32
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:33
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:34
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:35
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:36
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:37
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:38
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:39
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:91
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:92
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:93
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:94
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:95
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:96
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:97
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:98
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:99
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:151
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:152
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:153
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:154
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:155
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:156
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:157
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:158
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:159
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:215
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:216
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:217
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:218
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:219
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:220
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:221
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:222
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:223
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:279
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:280
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:281
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:282
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:283
+./suite-logs/coreApiWebdavMove2.log-coreApiWebdavMove2/moveShareOnOpencloud.feature:284
+./suite-logs/coreApiWebdavMove2.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiWebdavMove2.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiWebdavPreviews.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiWebdavPreviews.log-[31mcoreApiWebdavPreviews/previews.feature:358
+./suite-logs/coreApiWebdavPreviews.log-coreApiWebdavPreviews/previews.feature:359
+./suite-logs/coreApiWebdavPreviews.log-coreApiWebdavPreviews/previews.feature:360
+./suite-logs/coreApiWebdavPreviews.log-coreApiWebdavPreviews/previews.feature:361
+./suite-logs/coreApiWebdavPreviews.log-coreApiWebdavPreviews/previews.feature:362
+./suite-logs/coreApiWebdavPreviews.log-coreApiWebdavPreviews/previews.feature:363
+./suite-logs/coreApiWebdavPreviews.log-coreApiWebdavPreviews/previews.feature:364
+./suite-logs/coreApiWebdavPreviews.log-coreApiWebdavPreviews/previews.feature:365
+./suite-logs/coreApiWebdavPreviews.log-coreApiWebdavPreviews/previews.feature:366
+./suite-logs/coreApiWebdavPreviews.log-coreApiWebdavPreviews/previews.feature:367
+./suite-logs/coreApiWebdavPreviews.log-coreApiWebdavPreviews/previews.feature:368
+./suite-logs/coreApiWebdavPreviews.log-coreApiWebdavPreviews/previews.feature:369
+./suite-logs/coreApiWebdavPreviews.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiWebdavPreviews.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiWebdavProperties.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiWebdavProperties.log-[31mcoreApiWebdavProperties/copyFile.feature:240
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:241
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:242
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:264
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:265
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:266
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:289
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:290
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:291
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:315
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:316
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:317
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:467
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:468
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:469
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:495
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:496
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:497
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:880
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:881
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:882
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:917
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:918
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:919
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:920
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:921
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:922
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:923
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:924
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:925
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:926
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:927
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:928
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:961
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:962
+./suite-logs/coreApiWebdavProperties.log-coreApiWebdavProperties/copyFile.feature:963
+./suite-logs/coreApiWebdavProperties.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiWebdavProperties.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1
+--
+./suite-logs/coreApiWebdavUploadTUS.log:[33mrunsh: Total unexpected failed scenarios throughout the test run:
+./suite-logs/coreApiWebdavUploadTUS.log-[31mcoreApiWebdavUploadTUS/uploadFileMtime.feature:65
+./suite-logs/coreApiWebdavUploadTUS.log-coreApiWebdavUploadTUS/uploadFileMtime.feature:66
+./suite-logs/coreApiWebdavUploadTUS.log-coreApiWebdavUploadTUS/uploadFileMtime.feature:67
+./suite-logs/coreApiWebdavUploadTUS.log-[32mrunsh: There were no unexpected success.
+./suite-logs/coreApiWebdavUploadTUS.log-make: *** [Makefile:128: test-acceptance-api] Fehler 1

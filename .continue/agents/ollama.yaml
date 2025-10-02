@@ -1,0 +1,24 @@
+# This is an example agent configuration file
+# It is used to define custom AI agents within Continue
+# Each agent file can be accessed by selecting it from the agent dropdown
+
+# To learn more, see the full config.yaml reference: https://docs.continue.dev/reference
+
+name: Ollama Tech
+version: 1.0.0
+schema: v1
+
+# Models define which AI models this agent can use
+# https://docs.continue.dev/customization/models
+models:
+  - name: Autodetect
+    provider: ollama
+    apiBase: http://tech:11434
+    model: AUTODETECT
+    roles:
+      - chat
+      - edit
+      - apply
+      - rerank
+      - autocomplete
+
