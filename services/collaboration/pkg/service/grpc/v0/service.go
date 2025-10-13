@@ -286,6 +286,11 @@ func (s *Service) addQueryToURL(baseURL string, req *appproviderv1beta1.OpenInAp
 
 	if strings.ToLower(s.config.App.Product) == "collabora" {
 		q.Add("closebutton", "false")
+
+		cssVariables := utils.ReadPlainFromOpaque(req.GetOpaque(), "cssVariables")
+		if cssVariables != "" {
+			q.Add("css_variables", cssVariables)
+		}
 	}
 
 	qs := q.Encode()
