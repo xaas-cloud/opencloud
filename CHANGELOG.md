@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.7.1](https://github.com/opencloud-eu/opencloud/releases/tag/v3.7.1) - 2025-11-04
+
+### ❤️ Thanks to all contributors! ❤️
+
+@ScharfViktor
+
+### ✅ Tests
+
+- correct STORAGE_USERS_POSIX_WATCH_FS env typo in CI [[#1746](https://github.com/opencloud-eu/opencloud/pull/1746)]
+
 ## [3.7.0](https://github.com/opencloud-eu/opencloud/releases/tag/v3.7.0) - 2025-11-03
 
 ### ❤️ Thanks to all contributors! ❤️
