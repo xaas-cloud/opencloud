@@ -100,6 +100,15 @@ func EnsureCommons(cfg *config.Config) {
 		cfg.Commons.TransferSecret = cfg.TransferSecret
 	}
 
+	// copy url signing secret to the commons part if set
+	if cfg.URLSigningSecret != "" {
+		cfg.Commons.URLSigningSecret = cfg.URLSigningSecret
+	} else {
+		// fall back to transfer secret for url signing secret to avoid
+		// issues when upgradin from an older release
+		cfg.Commons.URLSigningSecret = cfg.TransferSecret
+	}
+
 	// copy metadata user id to the commons part if set
 	if cfg.SystemUserID != "" {
 		cfg.Commons.SystemUserID = cfg.SystemUserID
@@ -126,6 +135,10 @@ func Validate(cfg *config.Config) error {
 
 	if cfg.TransferSecret == "" {
 		return shared.MissingRevaTransferSecretError("opencloud")
+	}
+
+	if cfg.URLSigningSecret == "" {
+		return shared.MissingURLSigningSecret("opencloud")
 	}
 
 	if cfg.MachineAuthAPIKey == "" {
