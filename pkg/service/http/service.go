@@ -5,15 +5,16 @@ import (
 	"fmt"
 	"net"
 	"strings"
-	"time"
 
 	"github.com/opencloud-eu/opencloud/pkg/broker"
 	"github.com/opencloud-eu/opencloud/pkg/registry"
+	netx "github.com/opencloud-eu/opencloud/pkg/x/net"
 
 	mhttps "github.com/go-micro/plugins/v4/server/http"
 	mtracer "github.com/go-micro/plugins/v4/wrapper/trace/opentelemetry"
-	occrypto "github.com/opencloud-eu/opencloud/pkg/crypto"
 	"go-micro.dev/v4"
+
+	occrypto "github.com/opencloud-eu/opencloud/pkg/crypto"
 )
 
 // Service simply wraps the go-micro web service.
@@ -66,13 +67,13 @@ func NewService(opts ...Option) (Service, error) {
 		}
 	}
 
-	// Wrap listener with timeoutListener to set a read timeout
-	tl := timeoutListener{
-		Listener:    listener,
-		readTimeout: time.Duration(3) * time.Second,
-	}
-
-	mServer := mhttps.NewServer(mhttps.Listener(tl))
+	mServer := mhttps.NewServer(
+		// Wrap listener with timeoutListener to set a read timeout
+		mhttps.Listener(netx.TimeoutListener{
+			Listener:    listener,
+			ReadTimeout: sopts.TimeoutConfig.Read,
+		}),
+	)
 
 	wopts := []micro.Option{
 		micro.Server(mServer),

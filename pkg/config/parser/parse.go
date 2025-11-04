@@ -2,6 +2,7 @@ package parser
 
 import (
 	"errors"
+	"time"
 
 	"github.com/opencloud-eu/opencloud/pkg/config"
 	"github.com/opencloud-eu/opencloud/pkg/config/envdecode"
@@ -61,6 +62,8 @@ func EnsureDefaults(cfg *config.Config) {
 	if cfg.Reva == nil {
 		cfg.Reva = &shared.Reva{}
 	}
+
+	cfg.HTTPServiceTimeout.Read = 60 * time.Second
 }
 
 // EnsureCommons copies applicable parts of the OpenCloud config into the commons part
@@ -83,6 +86,7 @@ func EnsureCommons(cfg *config.Config) {
 	}
 
 	cfg.Commons.HTTPServiceTLS = cfg.HTTPServiceTLS
+	cfg.Commons.HTTPServiceTimeout = cfg.HTTPServiceTimeout
 
 	cfg.Commons.TokenManager = structs.CopyOrZeroValue(cfg.TokenManager)
 

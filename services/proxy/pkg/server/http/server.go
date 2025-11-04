@@ -4,11 +4,12 @@ import (
 	"fmt"
 	"os"
 
+	"go-micro.dev/v4"
+
 	pkgcrypto "github.com/opencloud-eu/opencloud/pkg/crypto"
 	"github.com/opencloud-eu/opencloud/pkg/service/http"
 	"github.com/opencloud-eu/opencloud/pkg/shared"
 	"github.com/opencloud-eu/opencloud/pkg/version"
-	"go-micro.dev/v4"
 )
 
 // Server initializes the http service and server.
@@ -40,6 +41,7 @@ func Server(opts ...Option) (http.Service, error) {
 			Cert:    options.Config.HTTP.TLSCert,
 			Key:     options.Config.HTTP.TLSKey,
 		}),
+		http.TimeoutConfig(options.Config.Commons.HTTPServiceTimeout),
 		http.Logger(options.Logger),
 		http.Address(options.Config.HTTP.Addr),
 		http.Namespace(options.Config.HTTP.Namespace),

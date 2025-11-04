@@ -55,6 +55,10 @@ type HTTPServiceTLS struct {
 	Key  string `yaml:"key" env:"OC_HTTP_TLS_KEY" desc:"Path/File name for the TLS certificate key (in PEM format) for the server certificate to use for the http services." introductionVersion:"1.0.0"`
 }
 
+type HTTPServiceTimeout struct {
+	Read time.Duration `yaml:"duration" env:"OC_HTTP_TIMEOUT_READ" desc:"The duration after which a read operation will time out." introductionVersion:"%%NEXT%%"`
+}
+
 type Cache struct {
 	Store              string        `yaml:"store" env:"OC_CACHE_STORE" desc:"The type of the cache store. Supported values are: 'memory', 'redis-sentinel', 'nats-js-kv', 'noop'. See the text description for details." introductionVersion:"1.0.0"`
 	Nodes              []string      `yaml:"nodes" env:"OC_CACHE_STORE_NODES" desc:"A comma separated list of nodes to access the configured store. This has no effect when 'memory' store is configured. Note that the behaviour how nodes are used is dependent on the library of the configured store." introductionVersion:"1.0.0"`
@@ -69,21 +73,22 @@ type Cache struct {
 // Commons holds configuration that are common to all extensions. Each extension can then decide whether
 // to overwrite its values.
 type Commons struct {
-	Log                *Log            `yaml:"log"`
-	Tracing            *Tracing        `yaml:"tracing"`
-	Cache              *Cache          `yaml:"cache"`
-	GRPCClientTLS      *GRPCClientTLS  `yaml:"grpc_client_tls"`
-	GRPCServiceTLS     *GRPCServiceTLS `yaml:"grpc_service_tls"`
-	HTTPServiceTLS     HTTPServiceTLS  `yaml:"http_service_tls"`
-	OpenCloudURL       string          `yaml:"opencloud_url" env:"OC_URL" desc:"URL, where OpenCloud is reachable for users." introductionVersion:"1.0.0"`
-	TokenManager       *TokenManager   `mask:"struct" yaml:"token_manager"`
-	Reva               *Reva           `yaml:"reva"`
-	MachineAuthAPIKey  string          `mask:"password" yaml:"machine_auth_api_key" env:"OC_MACHINE_AUTH_API_KEY" desc:"Machine auth API key used to validate internal requests necessary for the access to resources from other services." introductionVersion:"1.0.0"`
-	TransferSecret     string          `mask:"password" yaml:"transfer_secret,omitempty" env:"REVA_TRANSFER_SECRET" desc:"The secret used for signing the requests towards the data gateway for up- and downloads." introductionVersion:"1.0.0"`
-	SystemUserID       string          `yaml:"system_user_id" env:"OC_SYSTEM_USER_ID" desc:"ID of the OpenCloud storage-system system user. Admins need to set the ID for the storage-system system user in this config option which is then used to reference the user. Any reasonable long string is possible, preferably this would be an UUIDv4 format." introductionVersion:"1.0.0"`
-	SystemUserAPIKey   string          `mask:"password" yaml:"system_user_api_key" env:"SYSTEM_USER_API_KEY" desc:"API key for all system users." introductionVersion:"1.0.0"`
-	AdminUserID        string          `yaml:"admin_user_id" env:"OC_ADMIN_USER_ID" desc:"ID of a user, that should receive admin privileges. Consider that the UUID can be encoded in some LDAP deployment configurations like in .ldif files. These need to be decoded beforehand." introductionVersion:"1.0.0"`
-	MultiTenantEnabled bool            `yaml:"multi_tenant_enabled" env:"OC_MULTI_TENANT_ENABLED" desc:"Set this to true to enable multi-tenant support." introductionVersion:"%%NEXT%%"`
+	Log                *Log               `yaml:"log"`
+	Tracing            *Tracing           `yaml:"tracing"`
+	Cache              *Cache             `yaml:"cache"`
+	GRPCClientTLS      *GRPCClientTLS     `yaml:"grpc_client_tls"`
+	GRPCServiceTLS     *GRPCServiceTLS    `yaml:"grpc_service_tls"`
+	HTTPServiceTLS     HTTPServiceTLS     `yaml:"http_service_tls"`
+	HTTPServiceTimeout HTTPServiceTimeout `yaml:"http_service_timeout"`
+	OpenCloudURL       string             `yaml:"opencloud_url" env:"OC_URL" desc:"URL, where OpenCloud is reachable for users." introductionVersion:"1.0.0"`
+	TokenManager       *TokenManager      `mask:"struct" yaml:"token_manager"`
+	Reva               *Reva              `yaml:"reva"`
+	MachineAuthAPIKey  string             `mask:"password" yaml:"machine_auth_api_key" env:"OC_MACHINE_AUTH_API_KEY" desc:"Machine auth API key used to validate internal requests necessary for the access to resources from other services." introductionVersion:"1.0.0"`
+	TransferSecret     string             `mask:"password" yaml:"transfer_secret,omitempty" env:"REVA_TRANSFER_SECRET" desc:"The secret used for signing the requests towards the data gateway for up- and downloads." introductionVersion:"1.0.0"`
+	SystemUserID       string             `yaml:"system_user_id" env:"OC_SYSTEM_USER_ID" desc:"ID of the OpenCloud storage-system system user. Admins need to set the ID for the storage-system system user in this config option which is then used to reference the user. Any reasonable long string is possible, preferably this would be an UUIDv4 format." introductionVersion:"1.0.0"`
+	SystemUserAPIKey   string             `mask:"password" yaml:"system_user_api_key" env:"SYSTEM_USER_API_KEY" desc:"API key for all system users." introductionVersion:"1.0.0"`
+	AdminUserID        string             `yaml:"admin_user_id" env:"OC_ADMIN_USER_ID" desc:"ID of a user, that should receive admin privileges. Consider that the UUID can be encoded in some LDAP deployment configurations like in .ldif files. These need to be decoded beforehand." introductionVersion:"1.0.0"`
+	MultiTenantEnabled bool               `yaml:"multi_tenant_enabled" env:"OC_MULTI_TENANT_ENABLED" desc:"Set this to true to enable multi-tenant support." introductionVersion:"%%NEXT%%"`
 
 	// NOTE: you will not fing GRPCMaxReceivedMessageSize size being used in the code. The envvar is actually extracted in revas `pool` package: https://github.com/cs3org/reva/blob/edge/pkg/rgrpc/todo/pool/connection.go
 	// It is mentioned here again so it is documented

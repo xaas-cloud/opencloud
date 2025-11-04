@@ -4,10 +4,11 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/opencloud-eu/opencloud/pkg/log"
-	"github.com/opencloud-eu/opencloud/pkg/shared"
 	"github.com/urfave/cli/v2"
 	"go.opentelemetry.io/otel/trace"
+
+	"github.com/opencloud-eu/opencloud/pkg/log"
+	"github.com/opencloud-eu/opencloud/pkg/shared"
 )
 
 // Option defines a single option function.
@@ -17,6 +18,7 @@ type Option func(o *Options)
 type Options struct {
 	Logger        log.Logger
 	TLSConfig     shared.HTTPServiceTLS
+	TimeoutConfig shared.HTTPServiceTimeout
 	Namespace     string
 	Name          string
 	Version       string
@@ -93,6 +95,13 @@ func Flags(flags ...cli.Flag) Option {
 func TLSConfig(config shared.HTTPServiceTLS) Option {
 	return func(o *Options) {
 		o.TLSConfig = config
+	}
+}
+
+// TimeoutConfig provides a function to set the TimeOutConfig option.
+func TimeoutConfig(config shared.HTTPServiceTimeout) Option {
+	return func(o *Options) {
+		o.TimeoutConfig = config
 	}
 }
 
