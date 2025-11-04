@@ -3,7 +3,9 @@ package http
 import (
 	"crypto/tls"
 	"fmt"
+	"net"
 	"strings"
+	"time"
 
 	"github.com/opencloud-eu/opencloud/pkg/broker"
 	"github.com/opencloud-eu/opencloud/pkg/registry"
@@ -12,7 +14,6 @@ import (
 	mtracer "github.com/go-micro/plugins/v4/wrapper/trace/opentelemetry"
 	occrypto "github.com/opencloud-eu/opencloud/pkg/crypto"
 	"go-micro.dev/v4"
-	"go-micro.dev/v4/server"
 )
 
 // Service simply wraps the go-micro web service.
@@ -24,7 +25,9 @@ type Service struct {
 func NewService(opts ...Option) (Service, error) {
 	noopBroker := broker.NoOp{}
 	sopts := newOptions(opts...)
-	var mServer server.Server
+
+	var listener net.Listener
+	var err error
 	if sopts.TLSConfig.Enabled {
 		var cert tls.Certificate
 		var err error
@@ -50,10 +53,26 @@ func NewService(opts ...Option) (Service, error) {
 		tlsConfig := &tls.Config{
 			Certificates: []tls.Certificate{cert},
 		}
-		mServer = mhttps.NewServer(server.TLSConfig(tlsConfig))
+		// Create TLS listener
+		listener, err = tls.Listen("tcp", sopts.Address, tlsConfig)
+		if err != nil {
+			return Service{}, fmt.Errorf("error starting TLS listener: %w", err)
+		}
 	} else {
-		mServer = mhttps.NewServer()
+		// Create Non-TLS listener
+		listener, err = net.Listen("tcp", sopts.Address)
+		if err != nil {
+			return Service{}, fmt.Errorf("error starting TCP listener: %w", err)
+		}
 	}
+
+	// Wrap listener with timeoutListener to set a read timeout
+	tl := timeoutListener{
+		Listener:    listener,
+		readTimeout: time.Duration(3) * time.Second,
+	}
+
+	mServer := mhttps.NewServer(mhttps.Listener(tl))
 
 	wopts := []micro.Option{
 		micro.Server(mServer),
