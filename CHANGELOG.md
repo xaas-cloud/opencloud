@@ -1,14 +1,22 @@
 # Changelog
 
-## [3.7.1](https://github.com/opencloud-eu/opencloud/releases/tag/v3.7.1) - 2025-11-04
+## [4.0.0](https://github.com/opencloud-eu/opencloud/releases/tag/v4.0.0) - 2025-11-04
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@ScharfViktor
+@ScharfViktor, @rhafer
+
+### 💥 Breaking changes
+
+- collaboration: Enable `InsertRemoteImage` option [[#1692](https://github.com/opencloud-eu/opencloud/pull/1692)]
 
 ### ✅ Tests
 
 - correct STORAGE_USERS_POSIX_WATCH_FS env typo in CI [[#1746](https://github.com/opencloud-eu/opencloud/pull/1746)]
+
+### 📦️ Dependencies
+
+- build(deps): bump github.com/gabriel-vasile/mimetype from 1.4.10 to 1.4.11 [[#1775](https://github.com/opencloud-eu/opencloud/pull/1775)]
 
 ## [3.7.0](https://github.com/opencloud-eu/opencloud/releases/tag/v3.7.0) - 2025-11-03
 
