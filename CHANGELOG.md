@@ -1,6 +1,6 @@
 # Changelog
 
-## [4.0.0](https://github.com/opencloud-eu/opencloud/releases/tag/v4.0.0) - 2025-11-04
+## [4.0.0](https://github.com/opencloud-eu/opencloud/releases/tag/v4.0.0) - 2025-11-05
 
 ### ❤️ Thanks to all contributors! ❤️
 
@@ -9,6 +9,10 @@
 ### 💥 Breaking changes
 
 - collaboration: Enable `InsertRemoteImage` option [[#1692](https://github.com/opencloud-eu/opencloud/pull/1692)]
+
+### 🐛 Bug Fixes
+
+- fix: set global signing secret fallback correctly [[#1781](https://github.com/opencloud-eu/opencloud/pull/1781)]
 
 ### 📈 Enhancement
 
@@ -21,6 +25,8 @@
 ### 📦️ Dependencies
 
 - build(deps): bump github.com/gabriel-vasile/mimetype from 1.4.10 to 1.4.11 [[#1775](https://github.com/opencloud-eu/opencloud/pull/1775)]
+- build(deps): bump github.com/nats-io/nats-server/v2 from 2.12.0 to 2.12.1 [[#1706](https://github.com/opencloud-eu/opencloud/pull/1706)]
+- build(deps): bump github.com/onsi/ginkgo/v2 from 2.27.1 to 2.27.2 [[#1754](https://github.com/opencloud-eu/opencloud/pull/1754)]
 
 ## [3.7.0](https://github.com/opencloud-eu/opencloud/releases/tag/v3.7.0) - 2025-11-03
 
