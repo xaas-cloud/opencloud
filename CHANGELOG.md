@@ -25,6 +25,7 @@
 
 ### 📦️ Dependencies
 
+- Bump reva [[#1786](https://github.com/opencloud-eu/opencloud/pull/1786)]
 - build(deps): bump github.com/gabriel-vasile/mimetype from 1.4.10 to 1.4.11 [[#1775](https://github.com/opencloud-eu/opencloud/pull/1775)]
 - build(deps): bump github.com/nats-io/nats-server/v2 from 2.12.0 to 2.12.1 [[#1706](https://github.com/opencloud-eu/opencloud/pull/1706)]
 - build(deps): bump github.com/onsi/ginkgo/v2 from 2.27.1 to 2.27.2 [[#1754](https://github.com/opencloud-eu/opencloud/pull/1754)]
