@@ -10,6 +10,11 @@
 
 - collaboration: Enable `InsertRemoteImage` option [[#1692](https://github.com/opencloud-eu/opencloud/pull/1692)]
 
+### ✅ Tests
+
+- Sync share before action [[#1795](https://github.com/opencloud-eu/opencloud/pull/1795)]
+- correct STORAGE_USERS_POSIX_WATCH_FS env typo in CI [[#1746](https://github.com/opencloud-eu/opencloud/pull/1746)]
+
 ### 🐛 Bug Fixes
 
 - fix: set global signing secret fallback correctly [[#1781](https://github.com/opencloud-eu/opencloud/pull/1781)]
@@ -17,10 +22,6 @@
 ### 📈 Enhancement
 
 - collabora: Set IsAdminUser and IsAnonymousUser in CheckFileInfo [[#1745](https://github.com/opencloud-eu/opencloud/pull/1745)]
-
-### ✅ Tests
-
-- correct STORAGE_USERS_POSIX_WATCH_FS env typo in CI [[#1746](https://github.com/opencloud-eu/opencloud/pull/1746)]
 
 ### 📦️ Dependencies
 
