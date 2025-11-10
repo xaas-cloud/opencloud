@@ -1,3 +1,7 @@
+<!-- FIXME: This file contains broken links that need to be fixed:
+     - Line 11, 13: [envvar section](/services/gateway/configuration/#environment-variables) - File not found: /services/gateway/configuration/ (appears 2 times)
+-->
+
 # Gateway
 
 The gateway service is responsible for passing requests to the storage providers. Other services never talk to the storage providers directly but will always send their requests via the `gateway` service.

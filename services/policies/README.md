@@ -1,3 +1,7 @@
+<!-- FIXME: This file contains broken links that need to be fixed:
+     - Line 139: [policies.swagger.json](https://github.com/opencloud/blob/blob/master/protogen/gen/opencloud/services/policies/v0/policies.swagger.json) - HTTP 404 Not Found
+-->
+
 # Policies
 
 The policies service provides a new gRPC API which can be used to check whether a requested operation is allowed or not. To do so, Open Policy Agent (OPA) is used to define the set of rules of what is permitted and what is not.

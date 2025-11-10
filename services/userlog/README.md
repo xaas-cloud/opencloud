@@ -1,3 +1,7 @@
+<!-- FIXME: This file contains broken links that need to be fixed:
+     - Line 41: [oc10 notification GET API](https://docs.opencloud.eu/server/next/developer_manual/core/apis/ocs-notification-endpoint-v1.html#get-user-notifications) - HTTP 404 Not Found
+-->
+
 # Userlog
 
 The `userlog` service is a mediator between the `eventhistory` service and clients who want to be informed about user related events. It provides an API to retrieve those.

@@ -1,3 +1,8 @@
+<!-- FIXME: This file contains broken links that need to be fixed:
+     - Line 117, 121: [invitation flow](invitation_flow) - File not found: invitation_flow (appears 2 times)
+     - Line 128, 132: [Create share flow](create_share_flow) - File not found: create_share_flow (appears 2 times)
+-->
+
 # OCM
 
 The `ocm` service provides federated sharing functionality based on the [sciencemesh](https://sciencemesh.io/) and [ocm](https://github.com/cs3org/OCM-API) HTTP APIs. Internally the `ocm` service consists of the following services and endpoints:

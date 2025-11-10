@@ -1,3 +1,9 @@
+<!-- FIXME: This file contains broken links that need to be fixed:
+     - Line 12: [OpenCloud Web / Getting Started](https://docs.opencloud.eu/clients/web/getting-started/) - HTTP 404 Not Found
+     - Line 12: [OpenCloud Web / Setup with OpenCloud](https://docs.opencloud.eu/clients/web/backend-opencloud/) - HTTP 404 Not Found
+     - Line 35: [OpenCloud Web / Embed Mode](https://docs.opencloud.eu/clients/web/embed-mode/) - HTTP 404 Not Found
+-->
+
 # Web
 
 The web service embeds and serves the static files for the [OpenCloud Web Client](https://github.com/opencloud-eu/web).

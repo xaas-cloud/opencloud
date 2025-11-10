@@ -1,3 +1,7 @@
+<!-- FIXME: This file contains broken links that need to be fixed:
+     - Line 7: [enviroment variables](https://docs.opencloud.eu/services/idp/configuration/#environment-variables) - HTTP 404 Not Found
+-->
+
 # IDP
 
 This service provides a builtin minimal OpenID Connect provider based on [LibreGraph Connect (lico)](https://github.com/libregraph/lico) for OpenCloud.

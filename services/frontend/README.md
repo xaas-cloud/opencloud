@@ -1,3 +1,7 @@
+<!-- FIXME: This file contains broken links that need to be fixed:
+     - Line 45: [docs.opencloud.eu](https://docs.opencloud.eu/libre-graph-api/) - HTTP 404 Not Found
+-->
+
 # Frontend
 
 The frontend service translates various OpenCloud related HTTP APIs to CS3 requests.

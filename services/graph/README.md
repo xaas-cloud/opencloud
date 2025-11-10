@@ -1,3 +1,11 @@
+<!-- FIXME: This file contains broken links that need to be fixed:
+     - Line 5: [Libre Graph API](https://docs.opencloud.eu/libre-graph-api/) - HTTP 404 Not Found
+     - Line 27: [documentation](https://docs.opencloud.eu/services/graph/configuration/#environment-variables) - HTTP 404 Not Found
+     - Line 36: [here](https://docs.opencloud.eu/opencloud/identity-provider/ldap-active-directory/) - HTTP 404 Not Found
+     - Line 50: [here](https://github.com/opencloud-eu/opencloud/blob/main/deployments/examples/shared/config/ldap/schemas/10_opencloud_schema.ldif) - HTTP 404 Not Found
+     - Line 56: [Libre Graph API](https://docs.opencloud.eu/libre-graph-api/#/users/ListUsers) - HTTP 404 Not Found
+-->
+
 # Graph
 
 The graph service provides the Graph API which is a RESTful web API used to access OpenCloud
