@@ -4,11 +4,16 @@
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@ScharfViktor, @individual-it, @pbleser-oc, @rhafer
+@ScharfViktor, @individual-it, @pbleser-oc, @rhafer, @schweigisito
 
 ### 💥 Breaking changes
 
 - collaboration: Enable `InsertRemoteImage` option [[#1692](https://github.com/opencloud-eu/opencloud/pull/1692)]
+
+### 🐛 Bug Fixes
+
+- fix: fix typo in treesize logging [[#1826](https://github.com/opencloud-eu/opencloud/pull/1826)]
+- fix: set global signing secret fallback correctly [[#1781](https://github.com/opencloud-eu/opencloud/pull/1781)]
 
 ### ✅ Tests
 
@@ -16,10 +21,6 @@
 - increase timeouts waiting for notification & search [[#1802](https://github.com/opencloud-eu/opencloud/pull/1802)]
 - Sync share before action [[#1795](https://github.com/opencloud-eu/opencloud/pull/1795)]
 - correct STORAGE_USERS_POSIX_WATCH_FS env typo in CI [[#1746](https://github.com/opencloud-eu/opencloud/pull/1746)]
-
-### 🐛 Bug Fixes
-
-- fix: set global signing secret fallback correctly [[#1781](https://github.com/opencloud-eu/opencloud/pull/1781)]
 
 ### 📈 Enhancement
 
