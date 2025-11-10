@@ -26,6 +26,7 @@
 
 ### 📦️ Dependencies
 
+- build(deps): bump github.com/open-policy-agent/opa from 1.9.0 to 1.10.1 [[#1788](https://github.com/opencloud-eu/opencloud/pull/1788)]
 - Bump reva [[#1786](https://github.com/opencloud-eu/opencloud/pull/1786)]
 - build(deps): bump github.com/gabriel-vasile/mimetype from 1.4.10 to 1.4.11 [[#1775](https://github.com/opencloud-eu/opencloud/pull/1775)]
 - build(deps): bump github.com/nats-io/nats-server/v2 from 2.12.0 to 2.12.1 [[#1706](https://github.com/opencloud-eu/opencloud/pull/1706)]
