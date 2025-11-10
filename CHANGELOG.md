@@ -27,6 +27,7 @@
 
 ### 📦️ Dependencies
 
+- build(deps): bump github.com/KimMachineGun/automemlimit from 0.7.4 to 0.7.5 [[#1787](https://github.com/opencloud-eu/opencloud/pull/1787)]
 - build(deps): bump github.com/open-policy-agent/opa from 1.9.0 to 1.10.1 [[#1788](https://github.com/opencloud-eu/opencloud/pull/1788)]
 - Bump reva [[#1786](https://github.com/opencloud-eu/opencloud/pull/1786)]
 - build(deps): bump github.com/gabriel-vasile/mimetype from 1.4.10 to 1.4.11 [[#1775](https://github.com/opencloud-eu/opencloud/pull/1775)]
